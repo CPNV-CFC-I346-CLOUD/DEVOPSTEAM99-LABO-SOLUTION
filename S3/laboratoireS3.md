@@ -326,6 +326,6 @@ Consigne : répondre en utilisant des sources officielles et en vous appuyant de
 
 [Votre réponse]
 
-### Reprenez l'IAM "Policy" et expliquer ce que vous pouvez en déduire au niveau des droits qui vous sont alloués
+### Reprenez l'IAM "Policy" et expliquez ce que vous pouvez en déduire au niveau des droits qui vous sont alloués
 
 Consigne : Reprenez la "policy" et documenter chaque ligne
