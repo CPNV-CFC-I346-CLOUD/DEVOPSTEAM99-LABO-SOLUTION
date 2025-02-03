@@ -15,7 +15,7 @@
 
 ## IAM Policy
 
-Voici la "policy" qui vous a été attribuée:
+Voici la "policy" qui vous a été assignée:
 
 ```json
 {
@@ -52,28 +52,20 @@ Attention:
 * Le bucket existe-t-il ?
 
 ```bash
-aws s3 ls --profile devopsteam99-i346 | grep "devopsteam*"
+aws s3 ls --profile devopsteam<XX>-i346 | grep "devopsteam*"
 ```
 
 ```
 [OUTPUT]
 2025-01-27 22:23:30 devopsteam01-i346
-2025-01-27 22:28:03 devopsteam02-i346
-2025-01-27 22:28:05 devopsteam03-i346
-2025-01-27 22:28:06 devopsteam04-i346
-2025-01-27 22:28:08 devopsteam05-i346
-2025-01-27 22:28:09 devopsteam06-i346
-2025-01-27 22:28:11 devopsteam07-i346
-2025-01-27 22:28:13 devopsteam08-i346
-2025-01-27 22:28:14 devopsteam09-i346
-2025-01-27 22:28:16 devopsteam10-i346
-2025-02-03 19:32:33 devopsteam99-i346
+[...]
+2025-02-03 19:32:33 devopsteam10-i346
 ```
 
 * Créer un bucket (via un compte admin)
 
 ```bash
-aws s3 mb s3://devopsteam99-i346 --region eu-central-1 --profile s3-admin
+aws s3 mb s3://devopsteam<XX>-i346 --region eu-central-1 --profile s3-admin
 ```
 
 ```
@@ -84,9 +76,7 @@ make_bucket: devopsteam99-i346
 
 ### Uploader un fichier
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Upload]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -99,7 +89,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -112,9 +102,7 @@ make_bucket: devopsteam99-i346
 
 ### Uploader un répertoire
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Upload a folder]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -127,7 +115,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -140,9 +128,7 @@ make_bucket: devopsteam99-i346
 
 ### Lister le contenu d'un "repertoire"
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - List bucket content]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -155,7 +141,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -168,9 +154,7 @@ make_bucket: devopsteam99-i346
 
 ### Synchroniser un répertoire local de sa machine avec un bucket
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Synchronize local folder]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -183,7 +167,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -196,9 +180,7 @@ make_bucket: devopsteam99-i346
 
 ### Publier un fichier présent sur un bucket en générant un lien (url) temporaire
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Generate temporary link]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -211,7 +193,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -222,11 +204,9 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-### Supprimer un fichier
+### Supprimer un objet
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Remove object]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -239,7 +219,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -252,9 +232,7 @@ make_bucket: devopsteam99-i346
 
 ### Vider un "repertoire"
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Empty "folder"]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -267,7 +245,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -280,9 +258,7 @@ make_bucket: devopsteam99-i346
 
 ### Extraire uniquement les metadonnées d'un objet
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Get Object Metadata only()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -295,7 +271,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
@@ -308,9 +284,7 @@ make_bucket: devopsteam99-i346
 
 ### Vider le bucket
 
-//TODO en suivant le modèle livré sous "Créer un bucket"
-
-* [AWS Official Doc - Create Bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html#examples)
+* [AWS Official Doc - Empty bucket]()
 
 * [Vérifier l'état du bucket avant votre commande]
 
@@ -323,7 +297,7 @@ make_bucket: devopsteam99-i346
 //TODO
 ```
 
-* [La commande à réaliser pour effecuter l'action demandée]
+* [La commande à réaliser pour effectuer l'action demandée]
 
 ```bash
 //TODO
