@@ -6,7 +6,7 @@
   * Git bash vous embarque de nombreuses commandes Linux utiles pour s'entrainer avec S3 (cat, grep, touch, ls)
 * [Installation du CLI - v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 * [Configuration du CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html#getting-started-quickstart-existing)
-  * Les clés vous ont été partagées par oneDrive
+  * Les clés vous ont été partagées par Teams
 * [Gestion des profiles](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-format-profile)
   * Vous devez créer un profile du nom de votre équipe et l'utiliser pour toute les futures commandes
   ```
