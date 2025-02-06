@@ -43,7 +43,8 @@ Voici la "policy" qui vous a été assignée:
 
 Attention:
 * Vous devez utiliser la v2 du CLI
-* Le client offre soit la commande s3, soit s3api. En priorité vous devez essayer "s3".
+* Le client offre soit la commande s3, soit s3api. En priorité vous devez essayer "s3". Voici une [documentation AWS traitant de ce sujet](https://aws.amazon.com/blogs/developer/leveraging-the-s3-and-s3api-commands/).
+* Si l'action que vous désirez réaliser sur le bucket est refusée pour des raisons de droits, trouvez une autre possibilité de réaliser cela.
 
 ### Créer un bucket
 
