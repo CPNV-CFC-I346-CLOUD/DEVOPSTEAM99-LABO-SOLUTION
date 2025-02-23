@@ -327,7 +327,7 @@ delete: s3://devopsteam99-i346/folderToUpload/bob.txt
 
 ### Extraire uniquement les metadonnées d'un objet
 
-* [AWS Official Doc - Get Object Metadata only()
+* [AWS Official Doc - Get Object Metadata only](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/get-object-attributes.html)
 
 * [Vérifier la présence de l'objet dont nous voulons extraire les metadonnées]
 
