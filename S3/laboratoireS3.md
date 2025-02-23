@@ -256,7 +256,7 @@ https://devopsteam99-i346.s3.eu-central-1.amazonaws.com/Airplane-Transponder.jpg
 
 ### Supprimer un objet
 
-* [AWS Official Doc - Remove object]()
+* [AWS Official Doc - Remove object](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/rm.html)
 
 * [Vérifier si l'objet à supprimer est présent sur le bucket]
 
@@ -295,7 +295,7 @@ delete: s3://devopsteam99-i346/fileToUpload.txt
 
 ### Vider un "repertoire"
 
-* [AWS Official Doc - Empty "folder"]()
+* [AWS Official Doc - Empty "folder"](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/rm.html)
 
 * [Vérifier le contenu du répertoire à vider]
 
@@ -372,7 +372,7 @@ aws s3api get-object-attributes ^
 
 ### Vider le bucket
 
-* [AWS Official Doc - Empty bucket]()
+* [AWS Official Doc - Empty bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/rm.html)
 
 * Resynchroniser votre bucket avec votre répertoire de test pour que l'action de "vidage" du Bucket soit mieux observable
 
@@ -439,7 +439,7 @@ Rapide comparatif
 
 ### Reprenez l'IAM "Policy" et expliquez ce que vous pouvez en déduire au niveau des droits qui vous sont alloués
 
-Consigne : Reprenez la "policy" et documenter chaque ligne
+Consigne : Reprenez la "policy" et documentez les lignes essentielles.
 
 ```json
 {
