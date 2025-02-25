@@ -463,3 +463,18 @@ Consigne : Reprenez la "policy" et documentez les lignes essentielles.
 }
 ```
 
+#### En plus
+
+##### Pourquoi avoir opté pour s3api pour valider si l'object exist ?
+
+En me documentant pour trouver une méthode pour faire un "doesExist", le forum d'AWS m'a redirigé vers cette solution qui semble être favorisée.
+
+* En version 1 du cli, il y a une commande [object-exists](https://docs.aws.amazon.com/cli/latest/reference/s3api/wait/object-exists.html).
+* En version 2 du cli, c'est [head-object](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/wait/object-exists.html) qui est favorisée par AWS.
+
+Dans les deux versions, c'est s3api qui utilisé.
+
+Pour une approche avec le cli et une commande s3 native, les solutions sont multiples et non standardisées. C'est la raison pour laquelle j'ai opté pour le s3api.
+
+* Voir cette échange sur [StackOverflow](https://stackoverflow.com/questions/41871948/aws-s3-how-to-check-if-a-file-exists-in-a-bucket-using-bash)
+
