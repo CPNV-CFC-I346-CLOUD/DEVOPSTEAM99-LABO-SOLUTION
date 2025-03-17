@@ -98,6 +98,7 @@ aws ec2 create-route-table ^
     --tag-specifications ResourceType=route-table,Tags=[{Key=Name,Value=rteTable-devopsteam99}]
 ```
 
+```
 -------------------------------------------------------------------------
 |                           CreateRouteTable                            |
 +------------------+----------------------------------------------------+
@@ -121,6 +122,7 @@ aws ec2 create-route-table ^
 ||+---------------+---------------------------------------------------+||
 |||  Name         |  rteTable-devopsteam99                            |||
 ||+---------------+---------------------------------------------------+||
+```
 
 ## Associate subnet and route table
 
