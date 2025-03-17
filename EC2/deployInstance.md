@@ -2,7 +2,7 @@
 
 ## Create Key Pair
 
-* [AWS CLI - Describe VPCs](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/create-key-pair.html)
+* [AWS CLI - Create Key Pair](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/create-key-pair.html)
 
 ```
 aws ec2 create-key-pair ^
@@ -52,7 +52,7 @@ OUTPUT
 
 ## Authorize Security Group - Ingress
 
-* [AWS CLI - Modify security group](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/authorize-security-group-ingress.html)
+* [AWS CLI - Authorize Security Group - Ingress](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/authorize-security-group-ingress.html)
 
 ```
 aws ec2 authorize-security-group-ingress ^
