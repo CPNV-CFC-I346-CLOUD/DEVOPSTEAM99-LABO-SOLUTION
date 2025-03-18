@@ -54,7 +54,7 @@ aws ec2 describe-subnets ^
     --filter Name=vpc-id,Values=vpc-i346
 ```
 
-## Add tag to an exisiting resource
+## Add tag to an existing resource
 
 * [AWS CLI - Create tags](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/create-tags.html)
 
