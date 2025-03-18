@@ -74,3 +74,21 @@ ssh admin@localhost ^
 * [AWS CLI - Get Windows Password](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/get-password-data.html)
 
 ```
+aws ec2 get-password-data ^
+  --instance-id  i-011c9d97f322b12c8 ^
+  --priv-launch-key KEY-I346-SUB-DEVOPSTEAM99.pem ^
+  --region eu-central-1 ^
+  --profile devopsteam99-i346
+```
+
+```
+{
+    "InstanceId": "i-011c9d97f322b12c8",
+    "PasswordData": "*********",
+    "Timestamp": "2025-03-18T18:28:34+00:00"
+}
+```
+
+* Using an rdp client (run mstsc on windows)
+
+![image](https://github.com/user-attachments/assets/f348be91-d808-4c86-a99f-5de58b38ac26)
