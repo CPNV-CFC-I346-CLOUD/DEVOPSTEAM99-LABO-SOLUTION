@@ -9,7 +9,6 @@ aws ec2 create-key-pair ^
     --key-name KEY-I346-SUB-DEVOPSTEAM99 ^
     --key-type rsa ^
     --key-format pem ^
-    --tag-specifications ResourceType=key-pair,Tags=[{Key=Name,Value=KEY-I346-SUB-DEVOPSTEAM99}] ^
     --region eu-central-1 ^
     --profile devopsteam99-i346 ^
     --output text > KEY-I346-SUB-DEVOPSTEAM99.pem
