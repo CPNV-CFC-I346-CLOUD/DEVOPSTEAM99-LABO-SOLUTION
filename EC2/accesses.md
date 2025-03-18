@@ -1,6 +1,6 @@
 # Accesses
 
-## Prerequisits
+## Prerequisites
 
 You need two private keys.
 
