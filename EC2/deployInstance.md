@@ -94,7 +94,8 @@ aws ec2 run-instances ^
     --key-name KEY-I346-SUB-DEVOPSTEAM99 ^
     --subnet-id subnet-026ee5b4de5a53a01 ^
     --security-group-ids sg-070fcc0050052d4c1 ^
-    --private-ip-address 10.0.99.10 ^
+    --tag-specifications ResourceType=instance,Tags=[{Key=Name,Value=EC2-DEVOPSTEAM99-SUBNET}] ^
+    --private-ip-address 10.0.99.11 ^
     --region eu-central-1 ^
     --profile devopsteam99-i346 ^
     --output table
