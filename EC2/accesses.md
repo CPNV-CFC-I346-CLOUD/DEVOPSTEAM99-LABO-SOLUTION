@@ -49,10 +49,10 @@ exit
 * Possible final command integrating both tunnels
 
 ```
-ssh admin@52.59.181.213 ^
+ssh devopsteam<XX>@52.59.181.213 ^
     -i <key-name>.pem ^
-    -L 23:10.0.99.10:22 ^
-    -L 3399:10.0.99.11:3389
+    -L 23:<private-ip-lin-srv>:22 ^
+    -L 3399:<private-ip-win-srv>:3389
 ```
 
 * To get more information, you can add an optionnal "verbose" parameter "-v"
@@ -75,15 +75,15 @@ ssh admin@localhost ^
 
 ```
 aws ec2 get-password-data ^
-  --instance-id  i-011c9d97f322b12c8 ^
-  --priv-launch-key KEY-I346-SUB-DEVOPSTEAM99.pem ^
+  --instance-id  <id-private-win-srv> ^
+  --priv-launch-key <private-key-subnet>.pem ^
   --region eu-central-1 ^
-  --profile devopsteam99-i346
+  --profile devopsteam<XX>-i346
 ```
 
 ```
 {
-    "InstanceId": "i-011c9d97f322b12c8",
+    "InstanceId": "<your instance id>",
     "PasswordData": "*********",
     "Timestamp": "2025-03-18T18:28:34+00:00"
 }
@@ -91,4 +91,5 @@ aws ec2 get-password-data ^
 
 * Using an rdp client (run mstsc on windows)
 
-![image](https://github.com/user-attachments/assets/f348be91-d808-4c86-a99f-5de58b38ac26)
+![image](https://github.com/user-attachments/assets/1ebd23e7-f386-436f-a3fe-5335de101423)
+
